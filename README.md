@@ -20,12 +20,12 @@ _macos 10.15.5 Beta (19F53f) using COREGRAPHICS_MAC to compile IO2D_
   - Install libpng: brew install libpng
   - Install cmake: brew install cmake
 5. Edit the `CMakeLists.txt` file (".../P0267_RefImpl/CMakeLists.txt"), commenting out the section relating to samples
-  ```
-  # COMMENT OUT: Relating to Samples
-  #if( NOT DEFINED IO2D_WITHOUT_SAMPLES )
-  #	add_subdirectory(P0267_RefImpl/Samples)
-  #endif()
-  ```
+    ```
+    # COMMENT OUT: Relating to Samples
+    #if( NOT DEFINED IO2D_WITHOUT_SAMPLES )
+    #	add_subdirectory(P0267_RefImpl/Samples)
+    #endif()
+    ```
   - From: https://github.com/udacity/CppND-Route-Planning-Project/issues/1
   "A small trick is to edit the CMakeLists.txt under P0267_RefImpl and comment out the part with samples. Then, using CoreGraphics/Mac on macOS run "ALL_Build" and "install" in XCode."
   - ![comment_out](comment_out.png)
