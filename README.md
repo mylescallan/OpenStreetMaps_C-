@@ -43,5 +43,5 @@ _macos 10.15.5 Beta (19F53f) using COREGRAPHICS_MAC to compile IO2D_
   - make
   - ![build osm](OSM_build.gif)
 9. Complete
-  
+  - ![run osm](OSM_run.gif)  
   
