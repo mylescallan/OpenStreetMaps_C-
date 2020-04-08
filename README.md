@@ -29,7 +29,7 @@ _macos 10.15.5 Beta (19F53f) using COREGRAPHICS_MAC to compile IO2D_
     #endif()
     ```
   - From: https://github.com/udacity/CppND-Route-Planning-Project/issues/1
-  "A small trick is to edit the CMakeLists.txt under P0267_RefImpl and comment out the part with samples. Then, using CoreGraphics/Mac on macOS run "ALL_Build" and "install" in XCode."
+    _"A small trick is to edit the CMakeLists.txt under P0267_RefImpl and comment out the part with samples. Then, using CoreGraphics/Mac on macOS run "ALL_Build" and "install" in XCode."_
   - ![comment_out](comment_out.png)
 6. cd to `P0267_RefImpl` (in `thirdparty`) - in _Terminal_:
     ```
