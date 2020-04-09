@@ -70,6 +70,6 @@ _________
     open OSM_A_star_search.xcodeproj
     ```
   - ![buildX](./images/buildX.gif)
-3. **Note:** You will have to change the paths to your map XML file(s) to run make this build: 
+3. **Note:** You will have to change the paths to your map XML file(s) to make this build: 
   - ![mapX](./images/mapX.gif)
   
