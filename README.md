@@ -10,13 +10,13 @@ _______________
 _macos 10.15.5 Beta (19F53f) using COREGRAPHICS_MAC to compile IO2D_ 
 
 1. Create a folder that you are going to use for the project. Then, in _Terminal_ (or _iTerm_), change directory to that folder and clone the project files:
-  ```
-  git clone https://github.com/udacity/CppND-Route-Planning-Project.git --recurse-submodules
-  ```
+    ```
+    git clone https://github.com/udacity/CppND-Route-Planning-Project.git --recurse-submodules
+    ```
 2. `cd` to `thirdparty` folder, then clone the _IO2D_ files:
-  ```
-  git clone --recurse-submodules https://github.com/cpp-io2d/P0267_RefImpl
-  ```
+    ```
+    git clone --recurse-submodules https://github.com/cpp-io2d/P0267_RefImpl
+    ```
 3. Follow IO2D instructions: https://github.com/cpp-io2d/P0267_RefImpl/blob/master/BUILDING.md - which are
   - Download the extra C++ standard library headers from https://releases.llvm.org/6.0.0/clang+llvm-6.0.0-x86_64-apple-darwin.tar.xz and  add the  flags below so that these libraries can be found by IO2D:
   - REASON: Xcode currently comes with an old version of libc++ which lacks many of C++17 features required by IO2D. The easiest solution is to download a fresh build of libc++ from here. Export appropriate CXX and LD flags to make clang use this version of the standard library (replace NEWPATH with a path of extracted archive contents):
