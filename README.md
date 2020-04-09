@@ -45,16 +45,16 @@ _macos 10.15.5 Beta (19F53f) using COREGRAPHICS_MAC to compile IO2D_
 6. In XCode:
   - Build "ALL_BUILD"
   - Build "install"
-  - ![build io2d](IO2D_BUILD.gif)
+  - ![build io2d](./images/IO2D_BUILD.gif)
 7. IO2D is now ready to be used. `cd` to the root of the project files
     ```
     mkdir build && cd build
     cmake ..
     make
     ```
-  - ![build osm](OSM_build.gif)
+  - ![build osm](./images/OSM_build.gif)
 8. Complete
-  - ![run osm](OSM_run.gif)  
+  - ![run osm](./images/OSM_run.gif)  
   
 _________
 
@@ -69,5 +69,5 @@ _________
     ```
     open OSM_A_star_search.xcodeproj
     ```
-  - ![buildX](buildX.gif)
+  - ![buildX](./images/buildX.gif)
   
