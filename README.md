@@ -56,3 +56,18 @@ _macos 10.15.5 Beta (19F53f) using COREGRAPHICS_MAC to compile IO2D_
 8. Complete
   - ![run osm](OSM_run.gif)  
   
+_________
+
+### Additional Steps (To Complete Project Using Xcode)
+
+1. To get the project up and running in XCode, I created a new build folder in the root directory of the project(which I called `buildX`)
+    ```
+    mkdir buildX && cd buildX
+    cmake -G Xcode ..
+    ```
+2. Then I opened the `.xcodeproj` that was generated in XCode _(`OSM_A_star_search.xcodeproj`)_:
+    ```
+    open OSM_A_star_search.xcodeproj
+    ```
+  - ![buildX](buildX.gif)
+  
