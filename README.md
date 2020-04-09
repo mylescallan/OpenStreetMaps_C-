@@ -60,7 +60,7 @@ _________
 
 ### Additional Steps (To Complete Project Using Xcode)
 
-1. To get the project up and running in XCode, I created a new build folder in the root directory of the project(which I called `buildX`)
+1. To get the project up and running in XCode, I created a new build folder in the root directory of the project (which I called `buildX`)
     ```
     mkdir buildX && cd buildX
     cmake -G Xcode ..
