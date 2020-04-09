@@ -65,7 +65,7 @@ _________
     mkdir buildX && cd buildX
     cmake -G Xcode ..
     ```
-2. Then I opened the `.xcodeproj` that was generated in XCode _(`OSM_A_star_search.xcodeproj`)_:
+2. Then, in XCode, I opened the `.xcodeproj` that was generated _(`OSM_A_star_search.xcodeproj`)_:
     ```
     open OSM_A_star_search.xcodeproj
     ```
