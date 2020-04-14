@@ -83,7 +83,7 @@ __________
 
 ## Important
 
-If you build this project locally, you may find that the test fails. **Try your code in the workspace**, for some reason, in some cases, running the test locally fails but passes in the workspace.
+If you build this project locally, you may find that the test fails. **Try your code in the workspace**. For some reason, in some cases, running the test locally fails but passes in the workspace _(I posted a `Knowledge` question about this but didn't get an explanation for why this happens. I will dig deeper, if I find a reason then I will update this to explain why)._
 
 For example:
 
