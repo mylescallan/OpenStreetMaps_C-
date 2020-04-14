@@ -79,3 +79,12 @@ _________
 3. **Note:** You will have to change the paths to your map XML file(s) to make this build (in both `main.cpp` and `utest_rp_a_star_search.cpp` (the test file): 
   - ![mapX](./images/mapX.gif)
   
+__________
+
+## Important
+
+If you build this project locally, you may find that the test fails. **Try your code in the workspace**, for some reason, in some cases, running the test locally fails but passes in the workspace.
+
+For example:
+
+![optimal_route](./images/optimal_route.gif)
