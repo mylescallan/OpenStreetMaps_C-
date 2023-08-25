@@ -42,12 +42,15 @@ _macos 10.15.5 Beta (19F53f) using COREGRAPHICS_MAC to compile IO2D_
   - From: https://github.com/udacity/CppND-Route-Planning-Project/issues/1
     _"A small trick is to edit the CMakeLists.txt under P0267_RefImpl and comment out the part with samples. Then, using CoreGraphics/Mac on macOS run "ALL_Build" and "install" in XCode."_
   - ![comment_out](./images/comment_out.png)
-5. `cd` to `P0267_RefImpl` (in `thirdparty`) - in _Terminal_:
+5. **Important: _This step was updated 08/25/2023_ `--config` in the previous version was not a valid flag _(in previous versions of **cmake** invalid flags were ignored, now **they throw an error**)_
+    
+    `cd` to `P0267_RefImpl` (in `thirdparty`) - in _Terminal_:
     ```
     mkdir Debug && cd Debug
-    cmake -G "Xcode" --config Debug "-DCMAKE_BUILD_TYPE=Debug" -DIO2D_DEFAULT=COREGRAPHICS_MAC ../.
+    cmake -G "Xcode" Debug "-DCMAKE_BUILD_TYPE=Debug" -DIO2D_DEFAULT=COREGRAPHICS_MAC ../.
     open io2d.xcodeproj
     ```
+    _(in the previous version, the middle step was `cmake -G "Xcode" --config Debug "-DCMAKE_BUILD_TYPE=Debug" -DIO2D_DEFAULT=COREGRAPHICS_MAC ../.` containing **the invalid** flag)_
 6. In XCode:
   - Build "ALL_BUILD"
   - Build "install"
